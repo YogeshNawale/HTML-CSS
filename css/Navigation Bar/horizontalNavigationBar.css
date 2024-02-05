@@ -1,0 +1,39 @@
+div {
+    background-color: #d91838;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+select {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li a:hover {
+    background-color: #9eac1b;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(205, 227, 243);
+    text-align: center;
+    padding: 12px 17px;
+}
+
+li {
+    margin-right: 10px;
+}
+
+#id102 {
+    padding: 10px;
+   width: 500px;
+}

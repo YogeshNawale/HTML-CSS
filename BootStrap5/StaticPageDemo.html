@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+     
+    <nav class="navbar navbar-expand-sm btn-warning" style="color: rgb(236, 111, 10)">
+        <div class="container-fluid justify-content-between  align-items-center">
+            <!-- logo -->
+            <a class="navbar-brand"  href="#logo"> <img src="abstract-painting-art-gallery.jpg" alt="logo" style="max-height: 65px; max-width: 100%;"></a>
+            <!-- navigation bar -->
+            <h1 >Image Galary  </h1>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a  class="nav-link" href="#Home">Home</a></li>
+                <li class="nav-item"><a  class="nav-link" href="#AboutUs">About Us</a></li>
+                <li class="nav-item"><a  class="nav-link" href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-lg">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            class="w-100 shadow-1-strong rounded mb-4 mt-4"
+            alt="Boat on Calm Water"
+            
+          />
+          <h4 style="text-align: center;">Boat on Calm Water</h4>
+      
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+            class="w-100 shadow-1-strong rounded mb-4 mt-4"
+            alt="Wintry Mountain Landscape"
+          />
+          <h4 style="text-align: center;">Wintry Mountain Landscape</h4>
+        </div>
+      
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+            class="w-100 shadow-1-strong rounded mb-4 mt-4"
+            alt="Mountains in the Clouds"
+          />
+          <h4 style="text-align: center;">Mountains in the Clouds</h4>
+      
+          <img
+            src="nature-desktop-wallpaper-hd-free-download.jpg"
+            class="w-100 shadow-1-strong rounded mb-4 mt-4 "
+            alt="Moon on the Horizon"
+          />
+          <h4 style="text-align: center;">Boat on Calm Water</h4>
+        </div>
+      
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+            class="w-100 shadow-1-strong rounded mb-4 mt-4"
+            alt="Waves at Sea"
+          />
+          <h4 style="text-align: center;">Waves at Sea</h4>
+      
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+            class="w-100 shadow-1-strong rounded mb-4 mt-4"
+            alt="Yosemite National Park"
+          />
+          <h4 style="text-align: center;">Yosemite National Park</h4>
+        </div>
+      </div>
+
+
+      
+</body>
+</html>
+
+
+<!-- The images fit perfectly within the designated columns in the Bootstrap grid due to the use
+     of the Bootstrap grid system classes and responsive image classes. 
+     Let's break down how this was achieved:
+
+Grid System:
+The images are placed inside div elements with the class col-lg-4. This class is part of 
+Bootstrap's grid system and is used to define the width of a column on large screens (lg).
+ Specifically, col-lg-4 indicates that each column should take up 4 out of the
+  12 available columns on large screens.
+
+Responsive Behavior:
+Additionally, the images use the class w-100, which sets the width of the images to 100%.
+ This class ensures that the images expand to fill the entire width of their containing columns.
+
+As a result, the combination of the col-lg-4 class for column width and the w-100 class
+ for image width ensures that each image perfectly fits within its designated column, 
+ taking up one-third of the available space on large screens.
+
+Furthermore, the Bootstrap grid system is designed to be responsive, meaning it adjusts
+ the layout based on the screen size. In this case, the images will stack vertically on 
+ smaller screens (e.g., medium screens) due to the col-md-12 class, ensuring a 
+ single-column layout for smaller devices.
+
+In summary, the grid system and responsive image classes in Bootstrap contribute to a layout
+ where images fit perfectly within their designated columns, and the overall design remains
+  responsive across different screen sizes. -->

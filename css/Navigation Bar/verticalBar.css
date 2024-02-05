@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: antiquewhite;
+
+}
+
+li a:hover{
+    background-color: rgb(150, 229, 229);
+
+    
+}
+li a{
+    display: block;
+    text-align: left;
+    padding: 7px 10px  ;
+    color: blue;
+}
+
